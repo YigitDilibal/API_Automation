@@ -3,8 +3,6 @@ package tests;
 import org.json.JSONObject;
 import org.junit.jupiter.api.Test;
 
-import javax.swing.plaf.PanelUI;
-
 public class P03_JsonObjectCreate {
 
     /*

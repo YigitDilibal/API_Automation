@@ -35,7 +35,7 @@ public class P02_GET_ApiOtomasyon {
 
         response.then().assertThat().statusCode(200)
                                     .contentType("application/json; charset=utf-8")
-                                    .header("Server","Cowboy")
+                                     .header("Server","Cowboy")
                                     .statusLine("HTTP/1.1 200 OK");
                                      System.out.println(response.getTime()+" ms");
 
